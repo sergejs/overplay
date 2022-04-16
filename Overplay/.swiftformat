@@ -1,0 +1,33 @@
+--trimwhitespace always
+--indent 4
+--indentcase false
+--wraparguments before-first
+--wrapparameters before-first
+--wrapcollections before-first
+--closingparen balanced
+--modifierorder public,private,override,lazy,weak
+--funcattributes prev-line
+--typeattributes prev-line
+--varattributes prev-line
+--extensionacl on-extension
+--importgrouping testable-last
+--hexliteralcase uppercase
+--stripunusedargs closure-only
+--allman false
+
+--enable andOperator, anyObjectProtocol
+--enable blankLinesAroundMark, blankLinesAtEndOfScope, blankLinesBetweenScopes
+--enable braces, consecutiveBlankLines, consecutiveSpaces, duplicateImports, elseOnSameLine
+--enable emptyBraces, enumNamespaces, extensionAccessControl, hoistPatternLet
+--enable isEmpty, leadingDelimiters, modifierOrder
+--enable redundantBackticks, redundantBreak, redundantExtensionACL, yodaConditions
+--enable redundantFileprivate, redundantGet, redundantInit, redundantLet, redundantLetError, redundantNilInit
+--enable redundantObjc, redundantParens, redundantPattern, redundantReturn, redundantSelf, redundantType
+--enable redundantVoidReturnType, semicolons, sortedImports, spaceAroundBraces, spaceAroundBrackets, spaceAroundComments
+--enable spaceAroundGenerics, spaceAroundOperators, spaceAroundParens, spaceInsideBraces, spaceInsideBrackets, spaceInsideComments
+--enable spaceInsideGenerics, spaceInsideParens, strongOutlets, strongifiedSelf, todos, trailingClosures
+--enable typeSugar, unusedArguments
+
+--disable markTypes, wrap
+
+--exclude Pods, Libs, Generated, vendor

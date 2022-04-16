@@ -1,0 +1,7 @@
+platform :ios, '13.0'
+
+target 'Overplay' do
+  use_frameworks!
+  pod 'Alamofire', '~> 5.5'
+  pod 'SwiftFormat/CLI'
+end

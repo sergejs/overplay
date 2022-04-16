@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05570FE2FE123C3DE183B164 /* Pods_Overplay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4739D4C98AFC8BF80581BFC /* Pods_Overplay.framework */; };
+		120D1407280B3AFE00897018 /* OverplayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120D1406280B3AFE00897018 /* OverplayApp.swift */; };
+		120D140B280B3AFF00897018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 120D140A280B3AFF00897018 /* Assets.xcassets */; };
+		120D140E280B3AFF00897018 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 120D140D280B3AFF00897018 /* Preview Assets.xcassets */; };
+		127A8E4B280B3FAE00C394BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127A8E4A280B3FAE00C394BA /* ContentView.swift */; };
+		127A8E4E280B3FC300C394BA /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127A8E4D280B3FC300C394BA /* ContentViewModel.swift */; };
+		127A8E51280B400800C394BA /* ContentViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127A8E50280B400800C394BA /* ContentViewState.swift */; };
+		127A8E54280B461F00C394BA /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127A8E53280B461F00C394BA /* ErrorView.swift */; };
+		127A8E58280B48AB00C394BA /* ContentViewError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127A8E57280B48AB00C394BA /* ContentViewError.swift */; };
+		127A8E5A280B48CC00C394BA /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127A8E59280B48CC00C394BA /* PlayerView.swift */; };
+		127A8E5D280B48EF00C394BA /* PlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127A8E5C280B48EF00C394BA /* PlayerViewModel.swift */; };
+		127A8E5F280B492500C394BA /* AVPlayerControllerRepresented.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127A8E5E280B492500C394BA /* AVPlayerControllerRepresented.swift */; };
+		127A8E61280B493400C394BA /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127A8E60280B493400C394BA /* BarView.swift */; };
+		127A8E63280B498600C394BA /* ShakeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127A8E62280B498600C394BA /* ShakeManager.swift */; };
+		127A8E65280B49C100C394BA /* AttitudePercentage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127A8E64280B49C100C394BA /* AttitudePercentage.swift */; };
+		127A8E67280B49EB00C394BA /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127A8E66280B49EB00C394BA /* LocationManager.swift */; };
+		127A8E69280B4A2400C394BA /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127A8E68280B4A2400C394BA /* MotionManager.swift */; };
+		127A8E6B280B4A4D00C394BA /* ContenPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127A8E6A280B4A4D00C394BA /* ContenPlayer.swift */; };
+		127A8E6D280B546700C394BA /* LocationErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127A8E6C280B546700C394BA /* LocationErrorView.swift */; };
+		127A8E6F280B5ABF00C394BA /* LocationManagerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127A8E6E280B5ABF00C394BA /* LocationManagerError.swift */; };
+		127A8E72280B5DCC00C394BA /* UIWindow+motionEnded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127A8E71280B5DCC00C394BA /* UIWindow+motionEnded.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		120D1403280B3AFE00897018 /* Overplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Overplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		120D1406280B3AFE00897018 /* OverplayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverplayApp.swift; sourceTree = "<group>"; };
+		120D140A280B3AFF00897018 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		120D140D280B3AFF00897018 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		127A8E4A280B3FAE00C394BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		127A8E4D280B3FC300C394BA /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		127A8E50280B400800C394BA /* ContentViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewState.swift; sourceTree = "<group>"; };
+		127A8E52280B426C00C394BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		127A8E53280B461F00C394BA /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		127A8E57280B48AB00C394BA /* ContentViewError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewError.swift; sourceTree = "<group>"; };
+		127A8E59280B48CC00C394BA /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		127A8E5C280B48EF00C394BA /* PlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewModel.swift; sourceTree = "<group>"; };
+		127A8E5E280B492500C394BA /* AVPlayerControllerRepresented.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerControllerRepresented.swift; sourceTree = "<group>"; };
+		127A8E60280B493400C394BA /* BarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarView.swift; sourceTree = "<group>"; };
+		127A8E62280B498600C394BA /* ShakeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeManager.swift; sourceTree = "<group>"; };
+		127A8E64280B49C100C394BA /* AttitudePercentage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttitudePercentage.swift; sourceTree = "<group>"; };
+		127A8E66280B49EB00C394BA /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		127A8E68280B4A2400C394BA /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
+		127A8E6A280B4A4D00C394BA /* ContenPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContenPlayer.swift; sourceTree = "<group>"; };
+		127A8E6C280B546700C394BA /* LocationErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationErrorView.swift; sourceTree = "<group>"; };
+		127A8E6E280B5ABF00C394BA /* LocationManagerError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManagerError.swift; sourceTree = "<group>"; };
+		127A8E71280B5DCC00C394BA /* UIWindow+motionEnded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIWindow+motionEnded.swift"; sourceTree = "<group>"; };
+		315617DE46B44D7AA656831F /* Pods-Overplay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Overplay.release.xcconfig"; path = "Target Support Files/Pods-Overplay/Pods-Overplay.release.xcconfig"; sourceTree = "<group>"; };
+		B4739D4C98AFC8BF80581BFC /* Pods_Overplay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Overplay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8326760834C6DAC67CC404 /* Pods-Overplay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Overplay.debug.xcconfig"; path = "Target Support Files/Pods-Overplay/Pods-Overplay.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		120D1400280B3AFE00897018 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05570FE2FE123C3DE183B164 /* Pods_Overplay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		120D13FA280B3AFE00897018 = {
+			isa = PBXGroup;
+			children = (
+				120D1405280B3AFE00897018 /* Overplay */,
+				120D1404280B3AFE00897018 /* Products */,
+				4927B029D35C011DF6207DD8 /* Pods */,
+				6A809087B0472B45A6FE71D4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		120D1404280B3AFE00897018 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				120D1403280B3AFE00897018 /* Overplay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		120D1405280B3AFE00897018 /* Overplay */ = {
+			isa = PBXGroup;
+			children = (
+				127A8E52280B426C00C394BA /* Info.plist */,
+				127A8E49280B3FA200C394BA /* Screens */,
+				127A8E46280B3E6D00C394BA /* Services */,
+				120D1406280B3AFE00897018 /* OverplayApp.swift */,
+				120D140A280B3AFF00897018 /* Assets.xcassets */,
+				120D140C280B3AFF00897018 /* Preview Content */,
+			);
+			path = Overplay;
+			sourceTree = "<group>";
+		};
+		120D140C280B3AFF00897018 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				120D140D280B3AFF00897018 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		127A8E46280B3E6D00C394BA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				127A8E62280B498600C394BA /* ShakeManager.swift */,
+				127A8E66280B49EB00C394BA /* LocationManager.swift */,
+				127A8E68280B4A2400C394BA /* MotionManager.swift */,
+				127A8E6A280B4A4D00C394BA /* ContenPlayer.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		127A8E49280B3FA200C394BA /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				127A8E70280B5DBA00C394BA /* Extensions */,
+				127A8E4F280B3FC400C394BA /* MainScreen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		127A8E4F280B3FC400C394BA /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				127A8E5B280B48E600C394BA /* ViewModels */,
+				127A8E56280B48A200C394BA /* Models */,
+				127A8E55280B489700C394BA /* Views */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		127A8E55280B489700C394BA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				127A8E53280B461F00C394BA /* ErrorView.swift */,
+				127A8E4A280B3FAE00C394BA /* ContentView.swift */,
+				127A8E59280B48CC00C394BA /* PlayerView.swift */,
+				127A8E5E280B492500C394BA /* AVPlayerControllerRepresented.swift */,
+				127A8E60280B493400C394BA /* BarView.swift */,
+				127A8E6C280B546700C394BA /* LocationErrorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		127A8E56280B48A200C394BA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				127A8E50280B400800C394BA /* ContentViewState.swift */,
+				127A8E57280B48AB00C394BA /* ContentViewError.swift */,
+				127A8E64280B49C100C394BA /* AttitudePercentage.swift */,
+				127A8E6E280B5ABF00C394BA /* LocationManagerError.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		127A8E5B280B48E600C394BA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				127A8E4D280B3FC300C394BA /* ContentViewModel.swift */,
+				127A8E5C280B48EF00C394BA /* PlayerViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		127A8E70280B5DBA00C394BA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				127A8E71280B5DCC00C394BA /* UIWindow+motionEnded.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4927B029D35C011DF6207DD8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE8326760834C6DAC67CC404 /* Pods-Overplay.debug.xcconfig */,
+				315617DE46B44D7AA656831F /* Pods-Overplay.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6A809087B0472B45A6FE71D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4739D4C98AFC8BF80581BFC /* Pods_Overplay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		120D1402280B3AFE00897018 /* Overplay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 120D1411280B3AFF00897018 /* Build configuration list for PBXNativeTarget "Overplay" */;
+			buildPhases = (
+				68B2B32DC0351C04232A849F /* [CP] Check Pods Manifest.lock */,
+				120D13FF280B3AFE00897018 /* Sources */,
+				120D1400280B3AFE00897018 /* Frameworks */,
+				120D1401280B3AFE00897018 /* Resources */,
+				557631A81D20F571B8923696 /* [CP] Embed Pods Frameworks */,
+				129F628E280B3D3A00B8356E /* Swift formatter */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Overplay;
+			productName = Overplay;
+			productReference = 120D1403280B3AFE00897018 /* Overplay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		120D13FB280B3AFE00897018 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					120D1402280B3AFE00897018 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 120D13FE280B3AFE00897018 /* Build configuration list for PBXProject "Overplay" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 120D13FA280B3AFE00897018;
+			productRefGroup = 120D1404280B3AFE00897018 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				120D1402280B3AFE00897018 /* Overplay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		120D1401280B3AFE00897018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				120D140E280B3AFF00897018 /* Preview Assets.xcassets in Resources */,
+				120D140B280B3AFF00897018 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		129F628E280B3D3A00B8356E /* Swift formatter */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Swift formatter";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/SwiftFormat/CommandLineTool/swiftformat\" \"$SRCROOT\"\n";
+			showEnvVarsInLog = 0;
+		};
+		557631A81D20F571B8923696 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Overplay/Pods-Overplay-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Overplay/Pods-Overplay-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Overplay/Pods-Overplay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68B2B32DC0351C04232A849F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Overplay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		120D13FF280B3AFE00897018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				127A8E72280B5DCC00C394BA /* UIWindow+motionEnded.swift in Sources */,
+				127A8E6D280B546700C394BA /* LocationErrorView.swift in Sources */,
+				127A8E5D280B48EF00C394BA /* PlayerViewModel.swift in Sources */,
+				127A8E61280B493400C394BA /* BarView.swift in Sources */,
+				127A8E63280B498600C394BA /* ShakeManager.swift in Sources */,
+				127A8E4E280B3FC300C394BA /* ContentViewModel.swift in Sources */,
+				127A8E54280B461F00C394BA /* ErrorView.swift in Sources */,
+				127A8E6F280B5ABF00C394BA /* LocationManagerError.swift in Sources */,
+				127A8E65280B49C100C394BA /* AttitudePercentage.swift in Sources */,
+				127A8E6B280B4A4D00C394BA /* ContenPlayer.swift in Sources */,
+				127A8E69280B4A2400C394BA /* MotionManager.swift in Sources */,
+				127A8E58280B48AB00C394BA /* ContentViewError.swift in Sources */,
+				127A8E5A280B48CC00C394BA /* PlayerView.swift in Sources */,
+				127A8E4B280B3FAE00C394BA /* ContentView.swift in Sources */,
+				127A8E51280B400800C394BA /* ContentViewState.swift in Sources */,
+				120D1407280B3AFE00897018 /* OverplayApp.swift in Sources */,
+				127A8E5F280B492500C394BA /* AVPlayerControllerRepresented.swift in Sources */,
+				127A8E67280B49EB00C394BA /* LocationManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		120D140F280B3AFF00897018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		120D1410280B3AFF00897018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		120D1412280B3AFF00897018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE8326760834C6DAC67CC404 /* Pods-Overplay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Overplay/Preview Content\"";
+				DEVELOPMENT_TEAM = 65H97BSYWH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Overplay/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Give me some location!";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sergey.Overplay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		120D1413280B3AFF00897018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 315617DE46B44D7AA656831F /* Pods-Overplay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Overplay/Preview Content\"";
+				DEVELOPMENT_TEAM = 65H97BSYWH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Overplay/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Give me some location!";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sergey.Overplay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		120D13FE280B3AFE00897018 /* Build configuration list for PBXProject "Overplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				120D140F280B3AFF00897018 /* Debug */,
+				120D1410280B3AFF00897018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		120D1411280B3AFF00897018 /* Build configuration list for PBXNativeTarget "Overplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				120D1412280B3AFF00897018 /* Debug */,
+				120D1413280B3AFF00897018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 120D13FB280B3AFE00897018 /* Project object */;
+}
